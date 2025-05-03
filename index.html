@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./src/imgs/Starbucks_logo.png"
+    />
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    />
+  </head>
+  <body class="light">
+    <!-- Header Starting -->
+    <header id="main-header">
+      <div class="overlay"></div>
+      <div class="header-content">
+        <div class="logo-container">
+          <div class="logo" id="restaurant-logo"></div>
+        </div>
+        <h1 id="restaurant-name" data-en="Starbucks" data-ar="ستاربكس">
+          Starbucks
+        </h1>
+        <p
+          class="tagline"
+          data-en="Indulge in the finest dairy products, made with love and fresh ingredients"
+          data-ar="استمتع بأفضل منتجات الألبان المصنوعة بحب وبمكونات طازجة"
+        >
+          Indulge in the finest dairy products, made with love and fresh
+          ingredients
+        </p>
+      </div>
+    </header>
+    <!-- Header Ending -->
+
+    <!-- Navbar Starting -->
+    <nav id="main-nav">
+      <div class="container">
+        <ul class="nav-links">
+          <li class="list-none">
+            <a href="index.html" class="active">Home</a>
+          </li>
+        </ul>
+        <div class="nav-controls">
+          <button id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="icon-light">☀️</span>
+            <span class="icon-dark">🌙</span>
+          </button>
+          <button id="language-toggle" aria-label="Toggle language">
+            <span class="lang-en">EN</span>
+            <span class="lang-ar">عربي</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ending -->
+
+    <!-- Page Navigation Starting -->
+    <nav class="page-navigation">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#Hot drinks" data-en="Hot drinks" data-ar="مشروبات ساخنة"
+              >Hot drinks</a
+            >
+          </li>
+          <li>
+            <a href="#Cold drinks" data-en="Cold drinks" data-ar="مشروبات باردة"
+              >Cold drinks</a
+            >
+          </li>
+          <li>
+            <a href="#Desserts" data-en="Desserts" data-ar="حلويات">Desserts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Page Navigation Ending -->
+
+    <!-- Main Starting -->
+    <main>
+      <!-- Hot drinks Section Starting -->
+      <section id="Hot drinks" class="menu-section">
+        <div
+          class="section-header"
+          style="background-image: url('./src/imgs/Drinks/Tea.jpg')"
+        >
+          <h2 data-en="Hot drinks" data-ar="مشروبات ساخنة">Hot drinks</h2>
+        </div>
+        <div class="container">
+          <div class="menu-list">
+            <div class="menu-item">
+              <div
+                data-ar="قهوة تركية"
+                data-en="Turkish Coffee"
+                class="item-header"
+              >
+                <h3>Turkish Coffee</h3>
+              </div>
+              <div class="price">20 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="قهوة فرنساوي"
+                data-en="French Coffee"
+                class="item-header"
+              >
+                <h3>French Coffee</h3>
+              </div>
+              <div class="price">25 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div data-ar="لاتيه" data-en="Latte" class="item-header">
+                <h3>Latte</h3>
+              </div>
+              <div class="price">40 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div data-ar="كابتشينو" data-en="Cappuccino" class="item-header">
+                <h3>Cappuccino</h3>
+              </div>
+              <div class="price">35 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="اسبريسو (سنجل / دبل)	"
+                data-en="Espresso (Single / Double)"
+                class="item-header"
+              >
+                <h3>Espresso (Single / Double)</h3>
+              </div>
+              <div class="price">25 / 30 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="قهوة تركية"
+                data-en="Turkish Coffee"
+                class="item-header"
+              >
+                <h3>Turkish Coffee</h3>
+              </div>
+              <div class="price">20 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="هوت شوكليت"
+                data-en="Hot Chocolate"
+                class="item-header"
+              >
+                <h3>Hot Chocolate</h3>
+              </div>
+              <div class="price">40 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="شاي (أحمر / أخضر / أعشاب)"
+                data-en="Tea (Black / Green / Herbal)"
+                class="item-header"
+              >
+                <h3>Tea (Black / Green / Herbal)</h3>
+              </div>
+              <div class="price">15 L.E</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hot drinks Section Ending -->
+
+      <!-- Cold drinks Section Starting -->
+      <section id="Cold drinks" class="menu-section">
+        <div
+          class="section-header"
+          style="background-image: url('./src/imgs/Drinks/Ice\ Drink.jpg')"
+        >
+          <h2 data-en="Cold drinks" data-ar="مشروبات باردة">Cold drinks</h2>
+        </div>
+        <div class="container">
+          <div class="menu-list">
+            <div class="menu-item">
+              <div data-ar="آيس كوفي" data-en="Iced Coffee" class="item-header">
+                <h3>Iced Coffee</h3>
+              </div>
+              <div class="price">40 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div data-ar="آيس موكا	" data-en="Iced Mocha	" class="item-header">
+                <h3>Iced Mocha</h3>
+              </div>
+              <div class="price">45 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="فراپيه شوكولاتة"
+                data-en="Chocolate Frappe	"
+                class="item-header"
+              >
+                <h3>Chocolate Frappe</h3>
+              </div>
+              <div class="price">50 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="سموثي مانجو / فراولة	"
+                data-en="Mango / Strawberry Smoothie	"
+                class="item-header"
+              >
+                <h3>Mango / Strawberry Smoothie</h3>
+              </div>
+              <div class="price">50 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="مياه غازية"
+                data-en="Soft Drink	"
+                class="item-header"
+              >
+                <h3>Soft Drink</h3>
+              </div>
+              <div class="price">15 L.E</div>
+            </div>
+            <div class="menu-item">
+              <div
+                data-ar="مياه معدنية	"
+                data-en="Mineral Water	"
+                class="item-header"
+              >
+                <h3>Mineral Water</h3>
+              </div>
+              <div class="price">10 L.E</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Cold drinks Section Ending -->
+
+      <!-- Desserts Section Starting -->
+      <section id="Desserts" class="menu-section">
+        <div
+          class="section-header"
+          style="
+            background-image: url('https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=600');
+          "
+        >
+          <h2 data-en="Desserts" data-ar="حلويات">Desserts</h2>
+        </div>
+        <div class="container">
+          <div class="menu-list">
+            <div class="menu-item">
+              <div
+                data-ar="توست بالجبنة الرومي	"
+                data-en="Toast with Roumy Cheese"
+                class="item-header"
+              >
+                <h3>Toast with Roumy Cheese</h3>
+              </div>
+              <div class="price">30 L.E</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Desserts Section  Ending -->
+    </main>
+    <!-- Main Ending -->
+
+    <!-- Footer Starting -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3 data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h3>
+            <p
+              data-en="Email: info@mosasrestaurant.com"
+              data-ar="البريد الإلكتروني: info@mosasrestaurant.com"
+            >
+              Email: info@mosasrestaurant.com
+            </p>
+            <p data-en="Phone: (123) 456-7890" data-ar="الهاتف: ٧٨٩٠-٤٥٦ (١٢٣)">
+              Phone: (123) 456-7890
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h3>
+            <ul>
+              <li class="list-none">
+                <a href="#" data-en="About" data-ar="معلومات عنا">About</a>
+              </li>
+              <li class="list-none">
+                <a href="#" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+              </li>
+              <li class="list-none">
+                <a href="#" data-en="Privacy Policy" data-ar="سياسة الخصوصية"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="list-none">
+                <a href="#" data-en="Terms of Service" data-ar="شروط الخدمة"
+                  >Terms of Service</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-en="Hours" data-ar="ساعات العمل">Hours</h3>
+            <p
+              data-en="Monday - Friday: 9am - 10pm"
+              data-ar="الاثنين - الجمعة: ٩ص - ١٠م"
+            >
+              Monday - Friday: 9am - 10pm
+            </p>
+            <p
+              data-en="Saturday - Sunday: 10am - 11pm"
+              data-ar="السبت - الأحد: ١٠ص - ١١م"
+            >
+              Saturday - Sunday: 10am - 11pm
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2025 All rights reserved for
+            <a href="https://facebook.com/mohvmedsameh" target="_blank"
+              >Mosa (Mohamed Sameh)</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ending -->
+    <!-- JS Theme File -->
+    <script src="./src/js/theme.js"></script>
+    <!-- JS Language Switcher File -->
+    <script src="./src/js/language.js"></script>
+    <!-- JS Main File -->
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
